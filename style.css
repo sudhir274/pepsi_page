@@ -1,0 +1,81 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+section
+{
+    position:relative;
+    width: 90%;
+    min-height: 100%;
+    padding: 100px;
+    display: felx;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+ list-style: none;   
+}
+header ul li a
+{
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-left:40px;
+    text-decoration: none;
+
+}
+.content 
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox 
+{
+    position: relative;
+    max-width: 600px;
+
+}
+.content .textBox h2
+{
+    color: whitesmoke;
+    font-size: 6em;
+    line-height:1.5em ;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+.imgBox
+{
+    background-color: blue;
+    border: 2px solid black;
+}
